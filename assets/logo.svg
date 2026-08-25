@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 140" width="448" height="140" role="img" aria-label="jtail">
+  <title>jtail</title>
+  <style>
+    text {
+      font: 700 72px ui-monospace, "SF Mono", "Menlo", "Consolas", "Liberation Mono", monospace;
+      fill: #1f2328;
+    }
+    @media (prefers-color-scheme: dark) {
+      text { fill: #e6edf3; }
+    }
+  </style>
+  <g fill="none" stroke-width="10" stroke-linecap="round">
+    <path stroke="#06b6d4" d="M24 38 C60 38 78 66 106 69.5"/>
+    <path stroke="#10b981" d="M24 70 H106"/>
+    <path stroke="#d946ef" d="M24 102 C60 102 78 74 106 70.5"/>
+    <path stroke="#10b981" d="M124 70 h8"/>
+    <path stroke="#06b6d4" d="M146 70 h8"/>
+    <path stroke="#d946ef" d="M168 70 h8"/>
+  </g>
+  <text x="196" y="94" textLength="216" lengthAdjust="spacingAndGlyphs">jtail</text>
+  <rect x="420" y="40" width="13" height="56" rx="4" fill="#10b981" opacity="0.9"/>
+</svg>

@@ -1,6 +1,8 @@
-# jtail
+<p align="center">
+  <img src="assets/logo.svg" width="360" alt="jtail">
+</p>
 
-Merged live tail of systemd journals across your ssh hosts.
+<p align="center"><b>Merged live tail of systemd journals across your ssh hosts.</b></p>
 
 `stern` gives Kubernetes users one command to follow every pod of a service.
 `jtail` does the same for plain servers: it connects to each host over ssh,
