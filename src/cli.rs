@@ -26,7 +26,7 @@ pub struct Cli {
     pub priority: Option<String>,
 
     /// Start from this point in time, in systemd time syntax (forwarded to journalctl)
-    #[arg(long, value_name = "WHEN")]
+    #[arg(long, value_name = "WHEN", allow_hyphen_values = true)]
     pub since: Option<String>,
 
     /// Number of recent entries to show per host at startup; ignored with --since
